@@ -1,0 +1,391 @@
+@import url(../css/reset.css);
+
+/* ----------------------index---------------------------- */
+
+body{
+    background-color: #FDEFE5;
+    font-family: 微軟正黑體;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* -- 主選單 -- */
+nav{
+    background-color:#F2E2A4 ;
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+}
+
+.nav{
+   /* padding-left: 340px; */
+   display: flex;
+   justify-content: center;
+}
+
+nav img{
+    width: 141px;
+    margin-left: 50px;   
+}
+
+.nav a{
+    flex-grow: 4;
+}
+
+ul.top_nav{
+    display: flex;
+    /* margin-left: 610px; */
+    padding-top: 15px;
+    flex-grow: 1;
+}
+    
+
+.top_nav li{
+    padding: 10px;
+}
+
+.top_nav li a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+/* -----變灰------ */
+
+.top_nav li:nth-of-type(1) a{
+    color: gray;
+}
+
+.user{
+    margin-top: 10px;
+    flex-grow: 0;
+    margin-right: 30px;
+}
+
+.user a{
+    text-decoration: none;
+    flex-grow: 0;
+    
+}
+
+.user i{
+    color: #000000;
+    font-size: 38px;
+    display: block;
+    margin: 0 auto;
+    width: 38px;
+}
+
+.user p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* --banner-- */
+
+.banner{
+    background-image: url(../imgs/index_banner.jpg);
+    /* height: 506px;*/
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 137.02%;
+    /* identical to box height, or 88px */
+    letter-spacing: 0.17em;
+    font-weight: bold;
+    margin-left: 300px;
+    padding: 200px 0 200px 0;
+}
+
+/* --main-- */
+
+.main{
+    background-image: url(../imgs/index_background.png);
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main li{
+    padding: 60px;
+    /* box-sizing: border-box; */
+}
+
+.main li a{
+    text-decoration: none;
+}
+
+.main li img{
+    width: 297.22px;
+    border-radius: 50%;
+}
+
+.main li p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 0.145em;
+    color: black;
+    padding: 30px;
+    font-weight: bold;
+} 
+
+/* --introduction-- */
+
+.origin{
+    display: flex;
+    background: #F9D4BA;
+    justify-content: center;
+    padding: 90px;
+    box-sizing: border-box;
+}
+
+.origin section{
+    padding-right : 150px;
+}
+
+.origin h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.145em;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.origin p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 183.02%;
+    /* or 44px */
+    letter-spacing: 0.11em;
+    color: #000000;
+    width: 433px;
+}
+
+.origin img{
+    width: 390px;
+}
+
+.introduction{
+    display: flex;
+    background: #F2E2A4;
+    align-items: center;
+}
+
+.introduction img{
+    width: 50%;
+}
+
+.introduction section{
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.introduction h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.145em;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.introduction p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 183.02%;
+    /* or 44px */
+    letter-spacing: 0.11em;
+    color: #000000;
+    width: 433px;
+}
+
+.introduction img{}
+
+/* --footor-- */
+
+footer{
+    background: #E2D48D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0; 
+    
+}
+
+.footer_top{
+    display: flex;
+    padding-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+footer img{
+    width: 224px;
+}
+
+.text{
+    display: flex;
+    width: 900px;
+    margin-left: 20px;
+}
+
+.text .contact{}
+
+.text .contact li{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text .contact ol{}
+
+.text .contact ol li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    padding-top: 24px;
+}
+
+.footer_nav{
+    display: flex;
+}
+
+.footer_nav li{
+    padding-right: 30px;
+}
+
+.footer_nav li a{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_icon{
+   position: absolute; 
+   top: 90px;
+   left:890px;
+}
+
+.footer_icon a{
+    
+    
+    font-size: 35px;
+    padding-left: 5px;    
+}
+
+.footer_icon a i{
+    
+    color: #3C3B3B;
+}
+
+
+
+.at{
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 200px;
+}
+
+.at p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.at p a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* ----------------------- roomstyle --------------------- */
+
+/* --style_banner-- */
+
+.style_banner{}
+
+.style_banner img{
+    width: 100%;
+}
+
+.main h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.145em;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+/* --------------參考資料------------------- */
+
+.refer{}
+
+.refer .card{}
+
+.refer .card ul{}
+
+.refer .card ul li{
+    display: flex;
+    justify-content: center;
+}
+
+.refer .card a{
+    
+    /* width: 297.22px;
+    display: block;
+    margin: auto 0; */
+}
+
+.refer .card img{
+    border-radius: 0;
+    
+}

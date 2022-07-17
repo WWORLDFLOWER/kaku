@@ -1,0 +1,370 @@
+
+/* ---------------login---------------- */
+
+.login{
+    margin: 0 auto;
+    width: 62.5%;
+}
+
+.login_top{
+    margin: 0 auto;
+}
+
+.login_top h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    /* identical to box height, or 0px */
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-top: 60px;
+    padding-bottom: 10px;
+}
+
+.login_top ul{
+    margin: 0 auto;
+    width: 613px;
+    
+}
+
+.login_top li{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* --帳號-- */
+/* --密碼--*/
+
+.acc{
+    border: none;
+    border-radius: 10px;
+    width: 613px;
+    height: 62px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height, or 0px */
+    letter-spacing: 0.2em;
+    
+    color: #BDB5B5;
+    text-align: center;
+}
+
+/* --記住我/忘記密碼 */
+
+.remember{}
+
+.remember_me{}
+
+.remember span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.login_top ul li:nth-of-type(3){
+    display: flex;
+}
+
+.login_top ul li:nth-of-type(3) a{
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: none;
+    color: #F81212;
+}
+
+/* --按鈕-- */
+
+.btn_wrapper{
+    margin: 0 auto;
+    width: 613px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.btn_wrapper a.btn{
+    display: block;
+    text-decoration: none;
+    background: #C1D381;
+    border-radius: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+   
+    letter-spacing: 2px;
+    color: #000000;
+    margin: 30px;
+    padding: 15px 20px;
+}
+
+/* --其他登入-- */
+
+.login_bottom{
+    margin: 0 auto;
+    border-top: 1px dashed #000000;
+}
+
+.login_bottom h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #000000;
+    padding: 50px;
+}
+
+.login_icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.login_icon a{}
+
+.login_icon img{
+    padding: 0 30px;
+}
+
+/* -------------------註冊帳號/signin-------------------- */
+
+.signin{}
+
+.signin h2{}
+
+.signin ul{
+    margin-bottom: 40px;
+}
+
+.signin ul li{}
+
+.acc_btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    
+    width: 613px;
+    height: 62px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 62px;
+    /* identical to box height, or 0px */
+    letter-spacing: 0.2em;
+    background: #C1D381;
+    color: black;
+}
+
+/* ----------------使用電子信箱註冊--------------- */
+
+.email_signin{}
+
+.email_signin h2{}
+
+.login .email_signin ul{
+    width: 793.58px;
+}
+
+.email_signin ul li{}
+
+.signin{
+    width: 789.58px;
+}
+
+/* --電子信箱-- */
+
+.email_signin ul li:nth-of-type(3){
+    flex: none;
+}
+
+/* --驗證碼-- */
+
+.email_signin ul li:nth-of-type(4){}
+
+.email_signin ul li:nth-of-type(4) .signin{
+    width: 503px;
+}
+
+.email_signin ul li:nth-of-type(4) .btn{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: #C1D381;
+    border-radius: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.3em;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.email_signin ul li:nth-of-type(4) .btn:hover{
+    background-color: rgb(130, 196, 130);
+}
+
+/* ----------------------忘記密碼-------------------------- */
+
+.forget_password ul li:nth-of-type(2) .signin{
+    width: 503px;
+}
+
+.forget_password ul li:nth-of-type(2) .btn{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: #C1D381;
+    border-radius: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.3em;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.forget_password ul li:nth-of-type(2) .btn:hover{
+    background-color: rgb(130, 196, 130);
+}
+
+.forget_password ul li:nth-of-type(4) .signin{
+    width: 845px;
+}
+
+/* ---------------帳戶設定----------------- */
+
+.user_setting{
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------left---------- */
+
+.setting_left{
+    flex-shrink: 0;
+    padding-right: 20px;
+}
+
+.setting_left ul{
+    padding-top: 60px;
+}
+
+.setting_left ul li{}
+
+.setting_left ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+    color: #000000;
+    display: block;
+    padding-bottom: 36px;
+}
+
+/* --帳戶設定加粗-- */
+
+.setting_left ul .setting a{
+    font-weight: 700;
+} 
+
+/* --登出上框線-- */
+
+.setting_left ul li:nth-of-type(4){
+    border-top: 1px solid #000;
+    padding-top: 20px; 
+}
+
+/* -------------right------------ */
+
+.setting_right{}
+
+.user_setting .setting_right h2{
+    text-align: left;
+}
+
+.setting_input{
+    text-align: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.user_setting .setting_right ul{}
+
+.user_setting .setting_right ul li{}
+
+/* --按鈕-- */
+
+.user_setting .setting_right .btn_wrapper{
+    justify-content: left;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.user_setting .setting_right .btn_wrapper .btn{}
+
+/* ------------------歷史紀錄--------------------- */
+
+/* -----------left------------ */
+
+.histoty{}
+
+.history ul{}
+
+.histoty ul li{}
+
+.history ul li:nth-of-type(2) a{
+    font-weight: 700;
+}
+
+.history ul li:nth-of-type(3) a{
+    font-weight: 400;
+}
+
+/* -------------right------------- */
+
+.history_right{
+    padding-left: 81.703px;
+}
+
+.user_setting .history_right h2{
+    padding-bottom: 40px;
+}
+
+.user_setting .history_right .list{
+    width: 100%;
+}
+
+.user_setting .history_right .list .pics{
+    width: 25%;
+}
+
+.history_right .btn_wrapper a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+    color: #000000;
+}

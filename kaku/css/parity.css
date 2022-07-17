@@ -1,0 +1,312 @@
+/* ----------------------- parity --------------------- */
+
+/* -----------left---------- */
+
+.left{}
+
+/* --search-- */
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search_bar{
+    padding: 10px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.search_bar i{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.search_bar .bar{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #949191;
+    border: none;
+}
+
+.search .size{
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.search p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    /* identical to box height */
+    color: #000000;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.search .search_buttom{
+    background-color: #C1D381;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+    color: #000000;
+    border-radius: 10px;
+    padding: 0 40px;
+    margin-right: 10px;
+}
+
+.search_buttom:hover{
+    background-color: rgb(129, 185, 129);
+}
+
+select{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+option{}
+
+/* --product_list-- */
+
+.list{
+    width: 62.5%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+
+.list img{
+    width: 20%;
+    margin: 5px;
+}
+
+.product{
+    margin: 30px;
+    display: flex;
+    width: 70%;
+}
+
+.list_top{}
+
+.product_list{}
+
+.product_list h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #000000;
+    font-weight: bold;
+}
+
+.product_list p{
+    margin-bottom: 10px;
+}
+
+.product_list p:nth-of-type(1){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.product_list p:nth-of-type(2){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F6671;
+}
+
+.star{
+    display: flex;
+    height: 40%;
+}
+
+.star i{
+    font-size: 30px;
+    color: #FEF86F;
+    align-self: flex-end;
+}
+
+.star p{
+    align-self: flex-end;
+}
+
+.star p:nth-of-type(1){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #000000;
+    margin-left: 5px;
+}
+
+.star p:nth-of-type(2){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F6671;
+}
+
+.list_bottom{
+    border: 1px solid rgb(202, 195, 195);
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 0 10px;
+}
+
+.brand{
+    height: 40%;
+}
+
+.brand img{
+    width: 80%;
+    margin: 20px 0 0 20px;
+}
+
+.brand h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.price{
+    border-top: 1px solid rgb(202, 195, 195);
+    height: 50%;
+}
+
+.price_wrapper{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.price h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.035em;
+}
+
+.price p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #1877F2;
+}
+
+/* --------------登入後/user_login----------------- */
+
+.user_login{}
+
+.user_login ul li:nth-of-type(1){}
+
+.user_login ul{
+    overflow: hidden;
+}
+
+.user_login ul .user_head{
+    display: flex;
+    margin-right: 10px;
+}
+
+.user_login ul img{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.user_login ul span{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 73px;
+    /* identical to box height, or 250% */
+    letter-spacing: 0.115em;
+    color: #000000;
+}
+
+.user_login ul .user_list{}
+
+.user_login ul li ol{
+    background-image: url(../imgs/user_background.png);
+    width: 319px;
+    height: 288px;
+    padding-top: 50px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    right: 0;
+    left: auto;
+}
+
+.user_login ul li ol li{
+    margin-bottom: 10px;
+}
+
+.user_login ul li ol li a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    /* identical to box height, or 250% */
+    letter-spacing: 0.115em;
+    color: #000000;
+    display: block;
+}
+
+.user_login ul ol li:nth-of-type(2){
+    padding-bottom: 10px;
+}
+
+
+.user_login ul ol li:nth-of-type(3){
+    padding-top: 10px;
+    border-top: 1px solid #4F6671;
+    width: 280px;
+}
+
+.user_login:hover ol{
+    display: block;
+}
