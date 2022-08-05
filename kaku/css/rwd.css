@@ -78,16 +78,32 @@ nav img{
 /* ------banner------- */
 
 .banner{
-    height: 30vh;
+    /* height: 30vh; */
     /* background-image: url(../imgs/index_banner_rwd.jpg); */
     background-size: cover;
 }
 
-h1{
+/* h1{
     font-size: 20px;
     margin: auto;
     padding: 0px;
     padding: 100px 30px;
+} */
+
+#banner_img li img{
+    display: block;
+    max-width: 414px;
+    width: 100%;
+}
+
+#banner_btn{
+    bottom: 0px;
+}
+
+#banner_btn li{
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
 }
 
 /* ------main------ */
