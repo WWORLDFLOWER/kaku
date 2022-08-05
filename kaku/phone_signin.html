@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="../kaku/css/style.css">
     <link rel="stylesheet" href="../kaku/css/login.css">
+    <link rel="stylesheet" href="../kaku/css/rwd.css">
 </head>
 <body>
 
@@ -21,13 +22,20 @@
                     <li><a href="#">設計空間</a></li>
                     <li><a href="../kaku/roomstyle.html">風格推薦</a></li>
                     <li><a href="../kaku/parity.html">家具比價</a></li>
+                    <ol class="phone_set">
+                        <li><a href="#">最近查看過的家具</a></li>
+                        <li><a href="#">帳戶設定</a></li>
+                        <li><a href="#">登出</a></li>
+                    </ol>
                 </ul>
+                
                 <div class="user">
                     <a href="../kaku/login.html">
                         <i class="fa-regular fa-circle-user"></i>
                         <p>登入/註冊</p>
                     </a>
                 </div>
+                <i class="fa-solid fa-bars"></i> <!-- 漢堡線 -->
             </div>
         </nav>
 
@@ -66,7 +74,7 @@
                 
                 <!-- 按鈕 -->
                 <div class="btn_wrapper">
-                    <a class="btn" href="../kaku/user_login.html">送出</a>
+                    <input type="submit" value="送出" class="btn">
                 </div>
             </div>
         </div>

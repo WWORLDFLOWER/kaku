@@ -10,6 +10,7 @@ body{
 .wrapper{
     margin: 0 auto;
     width: 100%;
+    background-image: url(../imgs/index_background.png);
 }
 
 /* -- 主選單 -- */
@@ -26,8 +27,9 @@ nav{
 }
 
 nav img{
-    width: 141px;
-    margin-left: 50px;   
+    width: 120px;
+    /* margin-left: 50px; */
+    margin: 5px 50px;
 }
 
 .nav a{
@@ -56,10 +58,8 @@ ul.top_nav{
     font-weight: bold;
 }
 
-/* -----變灰------ */
-
-.top_nav li:nth-of-type(1) a{
-    color: gray;
+.top_nav .phone_log{
+    display: none;
 }
 
 .user{
@@ -91,32 +91,72 @@ ul.top_nav{
     font-weight: bold;
 }
 
-/* --banner-- */
+/* -----------RWD物件--------- */
 
-.banner{
-    background-image: url(../imgs/index_banner.jpg);
-    /* height: 506px;*/
-    background-repeat: no-repeat; 
-    margin: 0 auto;
-    width: 100%;
+.phone_set{
+    display: none;
 }
 
-h1{
+.fa-bars{
+    display: none;
+}
+
+/* --banner-- */
+
+/* h1{
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
     line-height: 137.02%;
-    /* identical to box height, or 88px */
     letter-spacing: 0.17em;
     font-weight: bold;
     margin-left: 300px;
     padding: 200px 0 200px 0;
+} */
+
+ul#banner_img{
+    /* height: 506px;*/
+    margin: 0 auto;
+    /* width: 100%; */
+    display: flex;
+    overflow: hidden;
+    /* flex-shrink: 1; */
+    position: relative;
+}
+
+#banner_img li{
+
+}
+
+#banner img li img{
+    width: 100%;
+}
+
+/* 小圓 */
+
+#banner_btn{
+    /* display: flex; */
+    text-align: center;
+}
+
+#banner_btn li{
+    background-color: rgb(211, 203, 203);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    
+}
+
+#banner_btn li.click{
+    background-color: rgb(139, 131, 131);
 }
 
 /* --main-- */
 
 .main{
-    background-image: url(../imgs/index_background.png);
+    /* background-image: url(../imgs/index_background.png); */
     width: 100%;
 }
 
@@ -307,17 +347,13 @@ footer img{
 }
 
 .footer_icon a{
-    
-    
     font-size: 35px;
     padding-left: 5px;    
 }
 
 .footer_icon a i{
-    
     color: #3C3B3B;
 }
-
 
 
 .at{
@@ -361,8 +397,14 @@ footer img{
     color: #000000;
     font-weight: bold;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.style_main{}
+
+.style_main ul li{
+    padding: 30px 60px;
 }
 
 /* --------------參考資料------------------- */

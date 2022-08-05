@@ -49,14 +49,17 @@
     letter-spacing: 0.2em;
     
     color: #BDB5B5;
-    text-align: center;
+    /* text-align: left; */
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: black;
 }
 
 /* --記住我/忘記密碼 */
 
 .remember{}
 
-.remember_me{}
+#remember_me{}
 
 .remember span{
     font-style: normal;
@@ -90,7 +93,7 @@
     padding-bottom: 40px;
 }
 
-.btn_wrapper a.btn{
+.btn_wrapper .btn{
     display: block;
     text-decoration: none;
     background: #C1D381;
@@ -103,7 +106,8 @@
     letter-spacing: 2px;
     color: #000000;
     margin: 30px;
-    padding: 15px 20px;
+    padding: 10px 20px;
+    border: none;
 }
 
 /* --其他登入-- */
@@ -245,7 +249,7 @@
 }
 
 .forget_password ul li:nth-of-type(4) .signin{
-    width: 845px;
+    width: 789.58px;
 }
 
 /* ---------------帳戶設定----------------- */
@@ -348,6 +352,7 @@
 
 .user_setting .history_right h2{
     padding-bottom: 40px;
+    /* text-align-last: left; */
 }
 
 .user_setting .history_right .list{
@@ -358,8 +363,7 @@
     width: 25%;
 }
 
-.history_right .btn_wrapper a{
-    text-decoration: none;
+.history_right .btn_wrapper button{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -367,4 +371,6 @@
     /* identical to box height */
     letter-spacing: 0.08em;
     color: #000000;
+    border: none;
+    background-color:rgba(0, 0, 0, 0);
 }

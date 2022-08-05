@@ -7,6 +7,7 @@
     <title>kaku家具</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="../kaku/css/style.css">
+    <link rel="stylesheet" href="../kaku/css/rwd.css">
 </head>
 <body>
 
@@ -16,29 +17,45 @@
         <nav>
             <div class="nav">
                 <a href="../kaku/index.html"><img src="../kaku/imgs/logo.png" alt=""></a>
+                <a href="#" class="ham"><i class="fa-solid fa-bars"></i></a> <!-- 漢堡線 -->
                 <ul class="top_nav">
                     <li><a href="#">設計空間</a></li>
                     <li><a href="../kaku/roomstyle.html">風格推薦</a></li>
                     <li><a href="../kaku/parity.html">家具比價</a></li>
+                    <li class="phone_log"><a href="../kaku/login.html">登入/註冊</a></li>
+                    <ol class="phone_set">
+                        <li><a href="../kaku/user_history.html">最近查看過的家具</a></li>
+                        <li><a href="../kaku/user_setting.html">帳戶設定</a></li>
+                        <li><a href="../kaku/index.html">登出</a></li>
+                    </ol>
                 </ul>
+                
                 <div class="user">
                     <a href="../kaku/login.html">
                         <i class="fa-regular fa-circle-user"></i>
                         <p>登入/註冊</p>
                     </a>
                 </div>
+                
             </div>
         </nav>
 
         <!-- banner -->
         <div class="banner">
-            <h1>做自己的空間設計師</h1>
+            <!-- <h1>做自己的空間設計師</h1> -->
+            <ul id="banner_img">
+                <li><img src="../kaku/imgs/index_banner.jpg" alt=""></li>
+                <li><img src="../kaku/imgs/index_banner2.png" alt=""></li>
+                <li><img src="../kaku/imgs/index_banner3.jpg" alt=""></li>
+            </ul>
         </div>
+        <!-- 小圓 -->
+        <ul id="banner_btn"></ul>
 
         <!-- main -->
         <div class="main">
             <ul class="card">
-                <li><a href="#"><img src="../kaku/imgs/design_mask.png" alt=""><p>設計空間</p></a></li>
+                <li><a href="#"><img src="../kaku/imgs/design.jpg" alt=""><p>設計空間</p></a></li>
                 <li><a href="../kaku/roomstyle.html"><img src="../kaku/imgs/style.jpg" alt=""><p>風格推薦</p></a></li>
                 <li><a href="../kaku/parity.html"><img src="../kaku/imgs/parity.jpg" alt=""><p>家具比價</p></a></li>
             </ul>
@@ -103,7 +120,8 @@
 
         </footer>
     </div>
-    
-    
+
+    <script src="../kaku/js/jquery-3.6.0.js"></script>
+    <script src="../kaku/js/index.js"></script>
 </body>
 </html>
