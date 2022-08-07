@@ -55,3 +55,39 @@ $('#skin img').draggable({
     containment: 'parent',
 })
 
+// design 點擊選單跳出icon
+
+// 床
+$('#bednav').click(function(){
+    $('#bed').toggle()
+})
+
+// 書桌
+$('#desknav').click(function(){
+    $('#desk').toggle()
+})
+
+// 椅子
+$('#chairnav').click(function(){
+    $('#chair').toggle()
+})
+
+// 沙發
+$('#sofanav').click(function(){
+    $('#sofa').toggle()
+})
+
+// 衣櫃
+$('#closetnav').click(function(){
+    $('#closet').toggle()
+})
+
+// 櫃子
+$('#shelfnav').click(function(){
+    $('#shelf').toggle()
+})
+
+// 門
+$('#doornav').click(function(){
+    $('#door').toggle()
+})

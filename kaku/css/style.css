@@ -457,7 +457,9 @@ footer img{
     
 }
 
-.left_nav ul{}
+.left_nav ul{
+    padding-bottom: 30px;
+}
 
 .left_nav ul li{
     margin-top: 30px;
@@ -482,15 +484,33 @@ footer img{
 
 #skin{
     width: 93%;
-    height: 100vh;
+    /* height: 100vh; */
     background: #FDEFE5;
     position: relative;
+    overflow: hidden;
 }
 
 #skin img{
     /* width: 400px; */
     /* height: 100vh; */
     position: absolute;
+    display: none;
+}
+
+#closet{
+    height: 100%;
+}
+
+#door{
+    z-index: 4;
+}
+
+#desk{
+    z-index: 3;
+}
+
+#chair{
+    z-index: 2;
 }
 
 #closet{

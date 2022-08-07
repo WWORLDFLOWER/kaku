@@ -563,5 +563,79 @@ select{
     padding: 40px;
 }
 
+/* --------design-------------------------------------- */
+
+.design{
+    flex-direction: column;
+}
+
+.left_nav{
+    width: auto;
+    /* height: 10vh; */
+}
+
+.left_nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.left_nav ul li{
+    /* margin-left: 15px; */
+    /* margin-top: 0px; */
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.left_nav ul li img{
+    width: 40px;
+}
+
+.left_nav ul li i{
+    font-size: 40px;
+}
+
+.left_nav ul li p{
+    display: none;
+}
+
+#skin{
+    width: auto;
+    height: 100vh;
+}
+
+#skin img{
+    /* display: block; */
+}
+
+#bed{
+    width: 70%;
+}
+
+#desk{
+    width: 40%;
+}
+
+#chair{
+    width: 20%;
+}
+
+#sofa{
+    width: 60%;
+}
+
+#closet{
+    width: 25%;
+}
+
+#shelf{
+    width: 70%;
+}
+
+#door{
+    width: 40%;
+}
 
 }
