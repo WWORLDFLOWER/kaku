@@ -352,9 +352,9 @@ footer img{
 }
 
 .footer_icon{
-   position: absolute; 
-   top: 90px;
-   left:890px;
+    position: absolute; 
+    top: 90px;
+    left:890px;
 }
 
 .footer_icon a{
@@ -441,4 +441,67 @@ footer img{
 .refer .card img{
     border-radius: 0;
     
+}
+
+/* ------------design------------------ */
+.design{
+    display: flex;
+}
+
+/* ---畫布按鈕---- */
+
+.left_nav{
+    width: 7%;
+    background: #F9D4BA;
+    text-align: center;
+    
+}
+
+.left_nav ul{}
+
+.left_nav ul li{
+    margin-top: 30px;
+}
+
+.left_nav ul li i{
+    font-size: 50px;
+}
+
+.left_nav ul li img{
+    width: 50px;
+    /* height: 50px; */
+}
+
+.left_nav ul li p{
+    /* font-size: 20px; */
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* -----畫布------ */
+
+#skin{
+    width: 93%;
+    height: 100vh;
+    background: #FDEFE5;
+    position: relative;
+}
+
+#skin img{
+    /* width: 400px; */
+    /* height: 100vh; */
+    position: absolute;
+}
+
+#closet{
+    height: 100vh;
+}
+
+#drag{
+    width: 70px;
+    height: 70px;
+    /* border-radius: 50%; */
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 70px;
 }

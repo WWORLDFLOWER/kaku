@@ -48,3 +48,10 @@ $(function(){
         $(`#banner_btn li`).not(`:eq(${index})`).removeClass('clicked')
     }
 });
+
+
+// design 畫布移動
+$('#skin img').draggable({
+    containment: 'parent',
+})
+
