@@ -258,7 +258,8 @@ option{}
     padding-top: 57px;
     width: 100%;
     padding-right: 50px;
-    
+    /* position: fixed; */
+    /* position: relative; */
 }
 
 .right .design{
@@ -266,7 +267,7 @@ option{}
     height: calc(100vh - 100px);
     overflow: hidden;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
-    
+    /* position: fixed; */
 }
 
 .design_main{
