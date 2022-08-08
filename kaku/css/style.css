@@ -21,9 +21,9 @@ nav{
 }
 
 .nav{
-   /* padding-left: 340px; */
-   display: flex;
-   justify-content: center;
+    /* padding-left: 340px; */
+    display: flex;
+    justify-content: center;
 }
 
 nav img{
@@ -93,7 +93,9 @@ ul.top_nav{
 
 /* -----------RWD物件--------- */
 
-
+.ham{
+    display: none;
+}
 
 .phone_set{
     display: none;

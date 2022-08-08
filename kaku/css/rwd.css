@@ -47,6 +47,10 @@ ul.top_nav{
     /* z-index: 2; */
 }
 
+.ham{
+    display: block;
+}
+
 .fa-bars{
     display: block;
     /* align-self: center;*/
