@@ -105,6 +105,7 @@ ul.top_nav{
     display: none;
 }
 
+
 /* ----------banner----------- */
 
 .banner{
@@ -366,6 +367,10 @@ footer img{
 
 .footer_icon a i{
     color: #3C3B3B;
+}
+
+.footer_top .phone_contact{
+    display: none;
 }
 
 
